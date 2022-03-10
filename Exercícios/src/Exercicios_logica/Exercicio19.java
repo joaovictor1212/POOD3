@@ -85,17 +85,19 @@ public class Exercicio19 {
 	              }
 	           }
 	         }
-	         String[] qualificaP;
-			if (vlrP.equals("1") || vlrP.equals("001")) {
-	            if (i == 0) // 1a. parte do valor (um real)
-	               umReal = true;
-	         }
-	         else if (i != 0)
-	                 saux = saux + " " + qualificaP[i];
-	         if (s.length() != 0)
-	            s = saux + ", " + s;
-	         else s = saux;
-	      }
+	         String[] qualificaP = null;
+	         if (vlrP.equals("1") || vlrP.equals("001")) {
+	             String[] qualificaS = null;
+				if (i == 0) // 1a. parte do valor (um real)
+	                umReal = true;
+	             else saux = saux + " " + qualificaS[i];
+	          }
+	          else if (i != 0)
+	                  saux = saux + " " + qualificaP[i];
+	          if (s.length() != 0)
+	             s = saux + ", " + s;
+	          else s = saux;
+	       }
 	      if (((i == 0) || (i == 1)) && s.length() != 0)
 	         tem = true; /** tem centena ou mil no valor*/
 	      i = i + 1; /** próximo qualificador: 1- mil, 2- milhão, 3- bilhão, ...**/
