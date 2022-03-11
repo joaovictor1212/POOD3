@@ -9,7 +9,7 @@ T. O programa deve calcular a posição final PF do móvel, dado pela relação 
 PF = P0 + V * T + (A * T 2 ) / 2*/
 public class Exercicio22 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor da posição inicial do movel, PO:");

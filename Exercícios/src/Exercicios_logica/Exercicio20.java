@@ -7,7 +7,7 @@ import java.util.Scanner;
 uma mensagem e a operação de conversão não deve ser efetuada.*/
 public class Exercicio20 {
 	
-	public static void main(String[] args) {
+	public void run() {
 		
 		Scanner myObj = new Scanner(System.in);
 		System.out.println("Entre com o valor em metros:");

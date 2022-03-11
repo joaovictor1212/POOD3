@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio18 {
 
-	public static void main(String[] args) {
+	public void run() {
 		int n=0,resto1,resto2,div1,div2;
 		String centena="",dezena="",unidade="";
 		System.out.println("Tecle -1 para sair:");

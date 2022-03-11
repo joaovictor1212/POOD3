@@ -8,7 +8,7 @@ Observe que: se o número de copo é inferior ou igual a 100, o preço por copo 
 101 e 500, o preço por copo é R$0.04; finalmente se o número de copos é superior a 500 o preço por copo é R$0.035.*/
 public class Exercicio12 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com a quantidade de copos:");

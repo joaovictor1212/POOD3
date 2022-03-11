@@ -7,14 +7,14 @@ Imprima o valor lido.*/
 
 public class Exercicio2 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de Y:");
 
 	    double y = myObj.nextDouble();
 
-	    System.out.println("Y é igual a:" + y);
+	    System.out.println("Y é igual a: " + y);
 
 	}
 

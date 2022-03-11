@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**Leia três números quaisquer, imprimindo-os em ordem crescente.*/
 public class Exercicio10 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 		int[] listaDeNumeros = new int[4];

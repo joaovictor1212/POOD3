@@ -7,7 +7,7 @@ mensagem indicando que o "valor é maior que 100" ou uma mensagem indicando que 
 
 public class Exercicio4 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de y:");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**25. Faça um programa que calcule a soma de N números quaisquer fornecidos pelo usuário.*/
 public class Exercicio25 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com a quantidade de numeros que quer inserir");

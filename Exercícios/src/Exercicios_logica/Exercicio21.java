@@ -7,7 +7,7 @@ import java.lang.Math;
 seu DELTA e também as raízes desta equação, imprimindo seus valores.*/
 public class Exercicio21 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor de a:");

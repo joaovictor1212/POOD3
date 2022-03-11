@@ -6,7 +6,7 @@ import java.util.Scanner;
 e, portanto somar os valores quando for introduzido o número 0 (zero).*/
 public class Exercicio26 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com a quantidade de numeros que quer inserir");

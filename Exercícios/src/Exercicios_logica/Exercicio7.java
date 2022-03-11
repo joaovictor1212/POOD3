@@ -10,7 +10,7 @@ F ou V para as seguintes questões:
 Use operadores lógicos para formular as expressões necessárias a avaliação dos valores.*/
 public class Exercicio7 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de A:");

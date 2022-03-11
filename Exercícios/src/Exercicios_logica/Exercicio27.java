@@ -6,7 +6,7 @@ import java.util.Scanner;
 nota.*/
 public class Exercicio27 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com a quantidade de alunos");

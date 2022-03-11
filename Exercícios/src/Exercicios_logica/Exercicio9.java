@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**9. Leia três números reais fornecidos pelo usuário. Descubra qual deles é o menor de todos, imprimindo seu valor.*/
 public class Exercicio9 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de A:");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio17 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor em segundos:");

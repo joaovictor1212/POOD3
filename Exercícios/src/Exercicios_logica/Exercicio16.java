@@ -6,7 +6,7 @@ import java.util.Scanner;
 sabendo que o cálculo da área é dado por:area = (base*altura)/2.*/
 public class Exercicio16 {
 
-public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor de base:");

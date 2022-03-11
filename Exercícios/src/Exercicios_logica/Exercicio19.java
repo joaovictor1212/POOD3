@@ -8,7 +8,7 @@ dinheiro, por exemplo: 1.00 -> "um real", .12.73 -> "doze reais e setenta e trê
 
 public class Exercicio19 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner ler = new Scanner(System.in);
 
 	    double vlr;

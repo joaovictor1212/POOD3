@@ -5,7 +5,7 @@ import java.util.Scanner;
 "Aprovado" se a média for maior que 7, "Reprovado" se for menor que 3 e "Exame" se estiver entre 3 e 7.*/
 public class Exercicio14 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor da nota1:");

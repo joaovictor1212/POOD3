@@ -11,7 +11,7 @@ Use operadores lógicos para formular as expressões necessárias a avaliação 
 
 public class Exercicio6 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de A:");

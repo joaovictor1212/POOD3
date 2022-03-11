@@ -8,7 +8,7 @@ triângulo, descubra também se este triângulo é escaleno (três lados diferen
 (três lados iguais).*/
 public class Exercicio13 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor de A:");

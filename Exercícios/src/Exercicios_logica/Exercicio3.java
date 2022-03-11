@@ -7,7 +7,7 @@ indicando tal fato.*/
 
 public class Exercicio3 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de y:");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 de A.*/
 public class Exercicio11 {
 
-	public static void main(String[] args) {
+	public void run(){
 		 Scanner myObj = new Scanner(System.in);
 		 System.out.println("Entre com o valor de A:");
 		 System.out.println("Entre com o valor de B:");

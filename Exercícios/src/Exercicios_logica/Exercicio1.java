@@ -7,8 +7,8 @@ Imprima o valor lido. **/
 
 public class Exercicio1 {
 
-	public static void main(String[] args) {
-	    Scanner myObj = new Scanner(System.in);
+	public void run() {
+		Scanner myObj = new Scanner(System.in);
 
 	    System.out.println("Entre com o valor de X:");
 	   

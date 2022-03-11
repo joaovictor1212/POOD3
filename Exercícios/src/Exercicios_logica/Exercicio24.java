@@ -9,7 +9,7 @@ c)Usando para (for)
 Obs. Caso o valor dado seja inválido o programa deve apenas exibir uma mensagem de aviso.*/
 public class Exercicio24 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor um valor entre 1 e 20:");

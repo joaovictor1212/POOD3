@@ -10,7 +10,7 @@ capital futuro FV dado pela relação abaixo:
 FV = PV * ( 1 + J ) N  */
 public class Exercicio23 {
 
-	public static void main(String[] args) {
+	public void run() {
 		Scanner myObj = new Scanner(System.in);
 		
 		System.out.println("Entre com o valor do capital inicial, PV");
